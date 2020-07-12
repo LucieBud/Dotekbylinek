@@ -1,0 +1,74 @@
+html { box-sizing: border-box; }
+*, *:after, *:before { box-sizing: inherit; }
+
+/*font-family: 'Caveat Brush', cursive;
+rgb(231, 203, 231)*/
+
+
+body{
+    font-family: 'Caveat Brush', cursive;
+    font-size:20px;
+}
+
+@media (min-width:720px){
+    body{
+        font-size:30px;
+    }
+}
+
+
+
+
+.nav-link{
+    padding:0.5rem;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color:rgb(108, 202, 108);
+    border-radius: 10px;
+}
+.dropdown-item{
+    padding:0.5rem;
+    text-align: center;
+}
+.dropdown-item:hover{
+    background-color:rgb(108, 202, 108);
+    border-radius: 10px;
+}
+footer{
+    background-color:plum;
+    padding:2rem;
+}
+.site{
+    width:50px;
+    height:auto;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.site:hover{
+    transform: translateY(-5px);
+}
+
+
+
+/*kontakt*/
+.profil{
+    width:200px;
+    height:auto;
+    border-radius: 50%;
+}
+
+
+/*mazeme*/
+.dlazdice{
+    margin:0.1rem;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.dlazdice:hover{
+    transform: scale(1.2,1.2);
+    z-index:10;
+}
+.mazeme{
+    margin-bottom:4rem;
+}

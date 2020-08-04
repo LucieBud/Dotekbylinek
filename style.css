@@ -15,16 +15,31 @@ body{
         font-size:30px;
     }
 }
-
-
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:15px;
+}
+.card-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px;
+}
+.card-title{
+    margin-bottom:1.5rem;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    z-index:10;
+}
 
 
 .nav-link{
     padding:0.5rem;
     text-align: center;
 }
+/*rgb(243, 187, 124)*/
 .nav-link:hover{
-    background-color:rgb(108, 202, 108);
+    background-color:rgb(241, 193, 137);
     border-radius: 10px;
 }
 .dropdown-item{
@@ -32,11 +47,11 @@ body{
     text-align: center;
 }
 .dropdown-item:hover{
-    background-color:rgb(108, 202, 108);
+    background-color:rgb(145, 206, 145);
     border-radius: 10px;
 }
 footer{
-    background-color:plum;
+    background-color:beige;
     padding:2rem;
 }
 .site{
@@ -62,6 +77,7 @@ footer{
 /*mazeme*/
 .dlazdice{
     margin:0.1rem;
+    padding:0;
     transition-property: transform;
     transition-duration: 0.5s;
 }
@@ -71,4 +87,61 @@ footer{
 }
 .mazeme{
     margin-bottom:4rem;
+}
+
+
+/*balzamy*/
+.odkaz{
+    color:black;
+    border: solid 1px lightgrey;
+    padding:0.2rem 1rem;
+    font-size:18px;
+}
+.odkaz:hover{
+    text-decoration: underline;
+    color:black;
+}
+.zpet{
+    margin-top:2rem;
+    margin-bottom:1rem;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.card-img-top{
+   margin-top:1rem;
+    max-width:200px;
+    align-self: center;
+}
+.card-text{
+    font-size:18px;
+}
+
+/*fotky*/
+.foto{
+    margin-bottom:0.5rem;
+}
+
+/*terminy*/
+.ruze{
+    width:50px;
+    height:auto;
+    
+}
+.media{
+    
+    padding:0.5rem;
+}
+.media-body{
+    margin-left:0.5rem;
+}
+.info{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:15px;
+    font-weight: 600;
+}
+.info:hover{
+    text-decoration: underline;
+    color:black;
 }

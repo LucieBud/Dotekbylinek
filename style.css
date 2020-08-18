@@ -31,8 +31,16 @@ body{
     top:0;
     z-index:10;
 }
-
-
+@media (min-width:992px){
+    .carousel{
+        width:80%;
+        height:auto;
+        
+    }
+    .carouselfoto{
+        height:400px;
+    }
+}
 .nav-link{
     padding:0.5rem;
     text-align: center;
@@ -144,4 +152,34 @@ footer{
 .info:hover{
     text-decoration: underline;
     color:black;
+}
+
+
+
+.nabidka{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px lightgray solid;
+    margin-bottom:1rem;
+    margin-top:1rem;
+}
+.fotoprodukt{
+    width:150px;
+    height:auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+@media (min-width:768px){
+    .nabidka{
+        flex-direction: row;
+        
+    }
+    .fotoprodukt{
+        margin-left:1rem;  
+        margin-right:1rem;
+    }
+    .popisproduktu{
+        text-align: left;
+    }
 }

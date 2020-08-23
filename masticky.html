@@ -49,16 +49,31 @@
         </section>
         
         <section>
-
+            <article>
+              <p class="popisrady">
+                Základem všech mých mastí je kvalitní včelí vosk a rostlinné oleje lisované za studena (slunečnicový, mandlový, olivový). Do některých typů přidávám esenciální oleje jak pro jejich účinek, tak i vůni. Bylinné masti neobsahují konzervanty ani barviva. Pro vegany lze na přání vyrobit mas s kandelilovým voskem.
+              </p>
+            </article>
             <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div class="popisproduktu">
+              <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                Levandulová mast
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Používáme ji na: akné, podrážděnou kůži (např. po holení), na spáleniny i od sluníčka, na štípance, na hojení drobných ranek, při bolesti hlavy a migrénách na spánky.
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně
+                    <div class="text mb-2" >Složení: levandulový olej (mandlový olej LZS, levandule), včelí vosk, EO levandule</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
             <article class="nabidka">
@@ -188,6 +203,24 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+  function toggle(long) {
+      
+      var long = document.getElementById ("long");
+      var lo = document.getElementById ("lo");
+      if (long.style.display == "block") long.style.display = "none";
+            else long.style.display = "block";
+
+            if (lo.style.display == "block") lo.style.display = "none";
+            else lo.style.display = "block";
+  }
+ 
+      
+  
+</script>
+
 </body>
 
 </html>

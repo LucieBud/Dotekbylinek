@@ -17,7 +17,7 @@
   <div class="container text-center">
     <a name=zalozka></a>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" href="indexmain.html"><img src="images/logo.png" width="70" height="70" alt="" loading="lazy"></a>
+        <a class="navbar-brand" href="indexmain.html"><img class="brand" src="images/logo.png" width="70" height="70" alt="" loading="lazy"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,15 +44,16 @@
 </nav>
     <main class="mazeme">
         
-        <section class="zpet">
-            <a class="odkaz" href="mazani.html">Zpět</a>
-        </section>
-        
         <section>
             <article>
-              <p class="popisrady">
-                Základem všech mých mastí je kvalitní včelí vosk a rostlinné oleje lisované za studena (slunečnicový, mandlový, olivový). Do některých typů přidávám esenciální oleje jak pro jejich účinek, tak i vůni. Bylinné masti neobsahují konzervanty ani barviva. Pro vegany lze na přání vyrobit mas s kandelilovým voskem.
-              </p>
+              <div class="popisrady">
+                <div class="mb-2">
+                 První co jsem okoukla a s mamkou vyrobila, byla měsíčková pro naše děti na atopický ekzém. Nakonec jim nejvíc pomáhá slézová, ale u těchto dvou jsem nezůstala a postupně přidávala další podle toho, jaké neduhy jsme chtěli vyřešit.
+                </div>
+                <div>
+                  Základem všech mých ručně vyráběných bylinných mastí je kvalitní včelí vosk a rostlinné oleje lisované za studena (slunečnicový, mandlový, olivový). Do některých typů přidávám esenciální oleje jak pro jejich účinek, tak i vůni, protože většina bylinných macerátů nijak nevoní. Bylinné masti neobsahují konzervanty ani barviva. Pro vegany můžu na přání vyrobit mast s kandelilovým voskem, který je rostlinného původu. Jakýkoliv bylinný olej, který je základem mastí, lze použít i samostatně k masážím nebo do koupele.
+                </div>
+              </div>
             </article>
             <article class="nabidka">
               <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
@@ -61,7 +62,11 @@
                 Levandulová mast
                 </h3>
                 <div class="text">
-                  Používáme ji na: akné, podrážděnou kůži (např. po holení), na spáleniny i od sluníčka, na štípance, na hojení drobných ranek, při bolesti hlavy a migrénách na spánky.
+                  Levandule má uklidňující, relaxační i hojivé účinky. Naše universální mastička na všechno - kdykoliv je nějaký štípanec, odřeninka - děti chtějí namazat.
+                </div>
+
+                <div class="text">
+                  Používáme ji na akné, podrážděnou kůži (např. po holení), na spáleniny i od sluníčka, na štípance, na hojení drobných ranek, při bolesti hlavy a migrénách na spánky.
                 </div>
                 <div  id="long" style="display:none;">
                   <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně
@@ -78,103 +83,160 @@
             </article>
             <article class="nabidka">
               <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                  Měsíčková mast s levandulí
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Měsíček lékařský je univerzální bylina, která má hojivé, ochranné, zklidňující a regenerační účinky na pokožku.
+                </div>
+                <div class="text">
+                  Používáme ji na všechny možné rány, odřeniny, podrážděnou kůži (např. po holení), na ekzém, účinkuje proti plísním, na jizvy, jako prevence strií a na křečové žíly; můžeme mazat i opruzeniny nebo proleženiny. Měsíčkovou mast můžete také užívat k péči o pooperační jizvy a pahýl
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně
+                    <div class="text mb-2" >Složení: měsíčkový olej (Bio slunečnicový olej, měsíček), včelí vosk, EO levandule</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
             <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
+              <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                Slézová mast
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Sléz lze užívat nejen vnitřně jako čaj na kašel, ale i v masti na suché ekzémy a ke zjemnění hrubé pokožky a u nás velký pomocník s atopickým ekzémem.
+                </div>
+
+                <div class="text">
+                  Používáme ji na suché ekzémy, hrubou pokožku, podrážděnou kůži.
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně
+                    <div class="text mb-2" >Složení: slézový olej (mandlový olej, sléz maurský), včelí vosk</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
             <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
+              <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                Tymiánová mast
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Tymián se hodí nejen v kuchyni při vaření, ale i při nachlazení, kašli a rýmě. Úplně hezky nevoní, ale pomáhá.
+                </div>
+
+                <div class="text">
+                  Používáme ji k mazání hrudníku a zad při na nachlazení a kašli, kolem nosu při rýmě, na plosky nožek při horečce.
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně
+                    <div class="text mb-2" >Složení: tymiánový olej (olivový olej, tymián), včelí vosk</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
             <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
+              <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                Řebříčková mast
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Řebříček regeneruje a hojí a já jí kombinuju s měsíčkem pro ještě lepší účinek, jen pozor, pokud jste citlivý na hvězdicovité, mohla by dráždit (hlavně na narušené pokožce).
+                </div>
+
+                <div class="text">
+                  Používáme ji na popraskané ruce a nohy, k hojení ran, na odřeniny, na poštípání hmyzem nebo na začínající hemoroidy.
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně
+                    <div class="text mb-2" >Složení: řebříčkový olej (mandlový olej, olivový olej, řebříček obecný),měsíčkový olej (bio slunečnicový olej, měsíček), včelí vosk</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
             <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
+              <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                Mast na opary
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Směs bylinek, vhodných k ošetření oparů - meduňka, černohlávek a měsíče, ke které mě inspirovala sestra a její epizody s opary.
+                </div>
+
+                <div class="text">
+                  Používáme ji na rty, k ošetření oparů.
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme podle potřeby
+                    <div class="text mb-2" >Složení: meduňkový olej (mandlový olej, meduňka), olej z černohlávku (mandlový olej, černohlávek), měsíčkový olej (bio slunečnicový olej, měsíček), včelí vosk</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
             <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
+              <img class="fotoprodukt img-fluid" src="images/levandulovamast.jpeg" alt="">
+              <div class="popisproduktu mb-3">
                 <h3>
-                Mast
+                Kostivalová mast
                 </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
+                <div class="text">
+                  Kostival je báječný na bolavé šlachy a kloub, první jsem míchala na svůj chronický zánět Achilovek, se kterým mi pomohla. Na kořen kostivalu chodím s krumpáčem na louku blízko chaty v České Kanadě.
+                </div>
+
+                <div class="text">
+                  Používáme ji na bolavé šlachy a klouby, po úrazech, na modřiny, na pohmožděné, unavené a bolavé u svaly.
+                </div>
+                <div  id="long" style="display:none;">
+                  <div class="text"> Přiměřené množství rozetřeme na čisté postižené místo, používáme 2-3x denně, pár minut vmasírováváme.
+                    <div class="text mb-2" >Složení: kostivalový olej (olivový olej, kořen kostivalu), včelí vosk, EO eukalypt</div>
+                    <div class="text mb-2">Mast je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                    
+                    <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+                  </div>
+                </div>
+                <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                    Zobrazit více/méně
+                </a>
               </div>
             </article>
-            <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
-                <h3>
-                Mast
-                </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
-              </div>
-            </article>
-            <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
-                <h3>
-                Mast
-                </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
-              </div>
-            </article>
-            <article class="nabidka">
-              <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-              <div>
-                <h3>
-                Mast
-                </h3>
-                <p class="text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-                </p>
-              </div>
-            </article>
+            
         </section>
         <section class="zpet">
             <a class="odkaz" href="#zalozka">Nahoru</a>

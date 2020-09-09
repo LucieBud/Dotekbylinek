@@ -164,28 +164,13 @@ footer{
 }
 
 /*terminy*/
-.ruze{
-    width:50px;
-    height:auto;
-    
-}
-.media{
-    
-    padding:0.5rem;
-}
-.media-body{
-    margin-left:0.5rem;
-}
-.info{
-    color:black;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size:15px;
-    font-weight: 600;
-}
-.info:hover{
-    text-decoration: underline;
-    color:black;
-}
+
+
+
+
+
+
+
 
 
 
@@ -284,4 +269,19 @@ footer{
     .foto1{
         display:none;
     }
+}
+
+.importantinfo{
+    border: 1px solid lightgray;
+    padding: 1rem;
+}
+
+
+.bylinkoteka{
+    color:black;
+    text-decoration: underline;
+}
+.bylinkoteka:hover{
+    text-decoration: none;
+    color:black;
 }

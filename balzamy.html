@@ -43,30 +43,64 @@
         </div>
 </nav>
     <main class="mazeme">
-        
-        <section>
-          <article class="nabidka">
-            <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-            <div class="popisproduktu">
-              <h3>
-                Balzám na rty - levandule
-              </h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-              </p>
+      <section>
+        <article>
+          <div class="popisrady">
+            <div class="mb-2">
+              Základem balzámů jsou bylinné maceráty stejně jako u mastiček, jen jsem použila větší množství vosku tak, aby se nerozpouštěly ani v létě v kabelce a nalila je do balzámových tubiček.
             </div>
-          </article>
-          <article class="nabidka">
-            <img class="fotoprodukt img-fluid" src="images/peeling.jpg" alt="">
-            <div class="popisproduktu">
-              <h3>
-                Balzám na rty - levandule
-              </h3>
-              <p class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptate itaque. Quas, iste perferendis ut, sit deserunt libero dignissimos eaque illo ab quisquam excepturi amet! Laborum atque debitis optio molestiae?
-              </p>
+          </div>
+        </article>
+        <article class="nabidka">
+          <img class="fotoprodukt img-fluid" src="images/balzam.jpeg" alt="">
+          <div class="popisproduktu mb-3">
+            <h3 class="mt-3">
+              Meduňkový balzám s měsíčkem
+            </h3>
+            <div class="text">
+              Meduňka je uklidňující bylinka, která účinkuje i na opary, měsíček je hojivý.
             </div>
-          </article>
+
+            <div class="text mb-2">
+              Používáme ji na akné, podrážděnou kůži (např. po holení), na spáleniny i od sluníčka, na štípance, na hojení drobných ranek, při bolesti hlavy a migrénách na spánky.
+            </div>
+            <div class="text mb-2" >Složení: meduňkový olej (mandlový olej, meduňka), měsíčkový olej (bio slunečnicový olej, měsíček), včelí vosk, EO meduňka s citronelou</div>
+            <div  id="long" style="display:none;">
+              <div class="text"> 
+                
+                <div class="text mb-2">Balzám je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                
+                <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+              </div>
+            </div>
+            <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                Zobrazit více/méně
+            </a>
+          </div>
+        </article>
+        <article class="nabidka">
+          <img class="fotoprodukt img-fluid" src="images/mesbal.jpeg" alt="">
+          <div class="popisproduktu mb-3">
+            <h3 class="mt-3">
+              Měsíčkový balzám
+            </h3>
+            <div class="text">
+              Měsíček lékařský je univerzální bylina s hojivým, antivirovým a antibakteriálním účinkem, tento balzám je bez jakékoliv přidané vůně - jen měsíček, olej a vosk.
+            </div>
+            <div class="text mb-2" >Složení: měsíčkový olej (bio slunečnicový olej, měsíček), včelí vosk</div>
+            <div  id="long" style="display:none;">
+              <div class="text"> 
+                
+                <div class="text mb-2">Balzám je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
+                
+                <div class="text">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
+              </div>
+            </div>
+            <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+                Zobrazit více/méně
+            </a>
+          </div>
+        </article>
         </section>
         <section class="zpet">
             <a class="odkaz" href="#zalozka">Nahoru</a>
@@ -95,6 +129,21 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  function toggle(long) {
+      
+      var long = document.getElementById ("long");
+      var lo = document.getElementById ("lo");
+      if (long.style.display == "block") long.style.display = "none";
+            else long.style.display = "block";
+
+            if (lo.style.display == "block") lo.style.display = "none";
+            else lo.style.display = "block";
+  }
+</script>
+
+
 </body>
 
 </html>

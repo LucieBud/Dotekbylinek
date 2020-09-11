@@ -19,7 +19,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size:17px;
 }
-@media (min-width:768px){
+@media (min-width:720px){
     .text{
         font-size:20px;
     }
@@ -28,7 +28,7 @@ body{
     width:70px;
     height:70px;
 }
-@media (min-width:768px){
+@media (min-width:720px){
     .brand{
         height:90px;
         width: 90px;
@@ -188,7 +188,7 @@ footer{
     margin-top:1rem;
     margin-bottom:1rem;
 }
-@media (min-width:768px){
+@media (min-width:720px){
     .nabidka{
         flex-direction: row;
         
@@ -209,7 +209,7 @@ footer{
     margin-bottom: 3rem;
     /*text-align:left;*/
 }
-@media (min-width:768px){
+@media (min-width:720px){
     .popisrady{
         font-size:20px;
     }
@@ -284,4 +284,39 @@ footer{
 .bylinkoteka:hover{
     text-decoration: none;
     color:black;
+}
+
+
+.kurzfoto{
+    max-width:150px;
+}
+@media (min-width:576px){
+    .kurzfoto{
+        max-width:300px;
+    }
+    
+}
+@media (min-width:960px){
+    .kurzfoto{
+        max-width:400px;
+    }
+    
+}
+@media (min-width:720px){
+    .left{
+        text-align: left;
+    }
+    
+}
+
+.lefttext{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:17px;
+}
+
+@media (min-width:720px){
+    .lefttext{
+        font-size:20px;
+        text-align: left;
+    }
 }

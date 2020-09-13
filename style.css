@@ -214,15 +214,19 @@ footer{
         font-size:20px;
     }
 }
-.rozklik{
+#rozklik{
     color:black;
     text-decoration: underline;   
     font-family: 'Josefin Sans', sans-serif;
     font-size:15px;
    
 }
-.rozklik{
-    color:black; 
+#rozklikni{
+    color:black;
+    text-decoration: underline;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:15px;
+   
 }
 
 /*pribeh*/
@@ -320,3 +324,5 @@ footer{
         text-align: left;
     }
 }
+
+

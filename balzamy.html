@@ -73,7 +73,7 @@
                 <div class="lefttext">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
               </div>
             </div>
-            <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+            <a id="rozklik" href="javascript:void(0);">
                 Zobrazit více/méně
             </a>
           </div>
@@ -88,7 +88,7 @@
               Měsíček lékařský je univerzální bylina s hojivým, antivirovým a antibakteriálním účinkem, tento balzám je bez jakékoliv přidané vůně - jen měsíček, olej a vosk.
             </div>
             <div class="lefttext mb-2" >Složení: měsíčkový olej (bio slunečnicový olej, měsíček), včelí vosk</div>
-            <div  id="long" style="display:none;">
+            <div id="lo" style="display:none;">
               <div class="lefttext"> 
                 
                 <div class="lefttext mb-2">Balzám je bez konzervantů, uchováváme mimo přímé slunce nejlépe při teplotě od 5 do 24°</div>
@@ -96,11 +96,12 @@
                 <div class="lefttext">Spotřebováváme do 6 měsíců (při správném zacházení vydrží i déle)</div>
               </div>
             </div>
-            <a href="javascript: void(0);" onClick="toggle('long')" class="rozklik">
+            <a href="javascript: void(0);" id="rozklikni">
                 Zobrazit více/méně
             </a>
           </div>
         </article>
+       
         </section>
         <section class="zpet">
             <a class="odkaz" href="#zalozka">Nahoru</a>
@@ -130,17 +131,39 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+<!--<script type="text/javascript">
+  function toggle(lo) {
+      var lo = document.getElementById ("lo");
+   
+      if (lo.style.display == "none") lo.style.display = "block";
+            else lo.style.display = "none";
+  }
+</script>
 <script type="text/javascript">
   function toggle(long) {
       
       var long = document.getElementById ("long");
-      var lo = document.getElementById ("lo");
-      if (long.style.display == "block") long.style.display = "none";
-            else long.style.display = "block";
-
-            if (lo.style.display == "block") lo.style.display = "none";
-            else lo.style.display = "block";
+      
+      if (long.style.display == "none") long.style.display = "block";
+            else long.style.display = "none";
   }
+</script>-->
+<script>
+$(rozklik).click(function(){
+  let long = document.getElementById ("long");
+
+  if (long.style.display == "none") long.style.display = "block";
+            else long.style.display = "none";
+
+});
+
+$(rozklikni).click(function(){
+  let lo = document.getElementById ("lo");
+
+  if (lo.style.display == "none") lo.style.display = "block";
+            else lo.style.display = "none";
+
+});
 </script>
 
 

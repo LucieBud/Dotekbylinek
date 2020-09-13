@@ -214,20 +214,14 @@ footer{
         font-size:20px;
     }
 }
-#rozklik{
+#rozklik, #rozklikni, #slez, #tym, #reb, #opar, #kost{
     color:black;
     text-decoration: underline;   
     font-family: 'Josefin Sans', sans-serif;
     font-size:15px;
    
 }
-#rozklikni{
-    color:black;
-    text-decoration: underline;   
-    font-family: 'Josefin Sans', sans-serif;
-    font-size:15px;
-   
-}
+
 
 /*pribeh*/
 .fotopribeh{

@@ -197,9 +197,6 @@ footer{
         margin-left:1rem;  
         margin-right:1rem;
     }
-    .popisproduktu{
-        /*text-align: left;*/
-    }
 }
 
 .popisrady{
@@ -208,6 +205,9 @@ footer{
     margin-top: 3rem;
     margin-bottom: 3rem;
     /*text-align:left;*/
+}
+.popisproduktu{
+       width:80%; 
 }
 @media (min-width:720px){
     .popisrady{

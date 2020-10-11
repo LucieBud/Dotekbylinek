@@ -30,11 +30,15 @@ body{
 }
 @media (min-width:720px){
     .brand{
-        height:90px;
-        width: 90px;
+        height:140px;
+        width: 140px;
     }
 }
-
+@media (min-width:992px){
+    .brand{
+        margin-left:3rem;
+    }
+}
 
 .card-text{
     font-family: 'Josefin Sans', sans-serif;
@@ -49,6 +53,11 @@ body{
     z-index:10;
     padding:0;
 }
+@media (min-width:992px){
+    .navbar{
+        padding-right:4rem;
+    }
+}
 .carouselfoto{
     max-height:1300px;
 }
@@ -56,22 +65,21 @@ body{
     padding:0.5rem;
     text-align: center;
 }
-/*rgb(243, 187, 124)*/
+
 .nav-link:hover{
-    background-color:rgb(241, 193, 137);
+    background-color:beige;
     border-radius: 10px;
 }
-.dropdown-item{
-    padding:0.5rem;
-    text-align: center;
-}
-.dropdown-item:hover{
-    background-color:rgb(145, 206, 145);
-    border-radius: 10px;
-}
+
 footer{
     background-color:beige;
     padding:2rem;
+    font-size: 17px;
+}
+@media (min-width:720px){
+    footer{
+        font-size: 21px;
+    }
 }
 .site{
     width:50px;
@@ -110,6 +118,12 @@ footer{
     flex-direction:column;
     align-items: center;
 }
+@media (min-width:992px){
+    .mazeme{
+        flex-direction:row;
+        justify-content: center;
+    }
+}
 .dvojicedlazdic{
     display:flex;
     flex-direction: row;
@@ -117,6 +131,7 @@ footer{
 .imgdlazdice{
     width:120px;
     height:auto;
+    border-radius: 50%;
 }
 @media (min-width:460px){
     .imgdlazdice{
@@ -126,7 +141,7 @@ footer{
 }
 @media (min-width:992px){
     .imgdlazdice{
-        width:300px;
+        width:250px;
         height:auto;
     }
 }
@@ -265,6 +280,9 @@ footer{
         display:none;
     }
     .foto1{
+        display:none;
+    }
+    .foto2{
         display:none;
     }
 }
